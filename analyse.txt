@@ -1,0 +1,4 @@
+* Pour sendAllocation, il faut un mapping positif pour l'adresse d'allocator.
+* collectAllocation permet de recuperer les fonds, mais il est en onlyOwner.
+
+* allocate, fonction payable allouant une valeur au mapping
