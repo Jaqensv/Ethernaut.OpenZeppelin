@@ -1,0 +1,6 @@
+Appeler une fonction avec notre propre adresse wallet:
+1 - export $(grep -v '^#' .env | xargs) // exporter le .env dans shell
+2 - cast send <contract_address> "<function>" --private-key $PRIVATE_KEY --rpc-url $RPC_URL
+
+Verification:
+cast call <contract_address> "<function>" --rpc-url $RPC_URL
