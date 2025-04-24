@@ -4,3 +4,6 @@ Appeler une fonction avec notre propre adresse wallet:
 
 Verification:
 cast call <contract_address> "<function>" --rpc-url $RPC_URL
+
+Reminder:
+In EVM it has 2²⁵⁶ slot in Smart Contract storage and each slot can save 32-byte size data.
